@@ -1,0 +1,33 @@
+.addRental__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // height: 100vh;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.addRental__header {
+  display: flex;
+  p {
+    text-align: center;
+    font-size: 24px;
+    font-family: Cereal-Bold;
+  }
+}
+
+.addRental__body {
+  width: 355px;
+  margin-top: 1rem;
+}
+
+.icon-input {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1108px) {
+  .addRental__container {
+    margin-bottom: 5rem;
+  }
+}
