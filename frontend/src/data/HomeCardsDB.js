@@ -1,7 +1,6 @@
 export const cards = [
   {
-    url:
-      'https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720',
+    url:"https://media.nomadicmatt.com/2018/apartment.jpg",
     title: 'Online Experiences',
     description:
       'Unique activities we can do together, led by a world of hosts.',
@@ -20,17 +19,17 @@ export const cards = [
   },
   {
     url: 'https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg',
-    title: '3 Bedroom Flat in Bournemouth',
+    title: '3 Bedroom Flat in Mumbai',
     description:
-      'Superhost with a stunning view of the beachside in Sunny Bournemouth',
+      'Superhost with a stunning view of the beachside in Sunny Mumbai',
     price: '£130/night',
   },
   {
     url:
       'https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg',
-    title: 'Penthouse in London',
+    title: 'Penthouse in Delhi',
     description:
-      'Enjoy the amazing sights of London with this stunning penthouse',
+      'Enjoy the amazing sights of Delhi with this stunning penthouse',
     price: '£350/night',
   },
   {
