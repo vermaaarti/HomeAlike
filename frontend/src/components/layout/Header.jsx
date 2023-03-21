@@ -7,26 +7,29 @@ import { ExpandMoreIcon } from 'components/icons';
 
 import Dropdown from './Dropdown';
 import Search from './Search';
+import "style/style.css"
 
-import logo from 'assets/img/logo.png';
+
+// import logo from 'assets/img/HomeLogo2.jpg';
 
 const Header = ({ user, isAuth }) => {
   const [openDropdown, setOpenDropdown] = useState(false);
   return (
     <div className='header'>
-      <Link to='/'>
-        <img className='header__logo' src={logo} alt='logo' />
+      <Link className="log" to='/'>
+        {/* <img className='header__logo' src={logo} alt='logo' /> */}
+            HomeAlike
       </Link>
       <Search />
       <div className='header__right'>
         {!isAuth && (
           <p>
             <Link to='/login'>
-              <span>Login</span>
+              <span className='log'>Login</span>
             </Link>
             /
             <Link to='/register'>
-              <span>Register</span>
+              <span className='log'>Register</span>
             </Link>
           </p>
         )}
